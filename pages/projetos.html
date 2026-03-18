@@ -5,41 +5,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale=1.0>
         <meta name="description" content="Portifólio de projetos pessoais.">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
         <title>Portifólio</title>
     </head>
 
     <body>
-        <header>
-            <div>
+        <header class="topo">
+            <div class="logo">
+                <a href="index.html"><img src="../img/portifolio.png" height="90"></a>
                 <a href="../index.html">PORTIFÓLIO</a>
             </div>
-            <nav>
+
+            <nav class="menu">
                 <a href="../index.html">Início</a>
                 <a href="sobre.html">Sobre</a>
-                <a href="projetos.html">Projetos</a>
+                <a href="projetos.html" class="ativo">Projetos</a>
                 <a href="contato.html">Contato</a>
             </nav>
+
         </header>
-        <section>
+
+        <section class="cards">
             <div>
                 <h2>Projetos criados e colaborados</h2>
-                <div>
-                    <article>
+                <div class="grid-cards">
+
+                    <a title="Ver detalhes do projeto" class="projeto">
                         <h3>TechEduca</h3>
-                        <img src="../img/tech.png" alt="TechEduca" width="350" height="200"></a>
+                        <img src="../img/tech.png" alt="TechEduca" width="350" height="200">
                         <p>Web Site para divulgar uma empresa de cursos sobre tecnologia.</p>
-                    </article>
-                    <article>
+                    </a>
+
+                    <a  title="Ver detalhes do projeto" class="projeto">
                         <h3>Café Central</h3>
-                        <img src="../img/cafe.png" alt="Café Central" width="350" height="200"></a>
+                        <img src="../img/cafe.png" alt="Café Central" width="350" height="200">
                         <p>Web Site para divulgar uma empresa de cursos sobre tecnologia.</p>
-                    </article>
-                    <article>
+                    </a>
+
+                    <a title="Ver detalhes do projeto" class="projeto">
                         <h3>Aldeia Automatizada</h3>
-                        <img src="../img/aldeia.png" alt="Aldeia Automatizada" width="350" height="200"></a>
+                        <img src="../img/aldeia.png" alt="Aldeia Automatizada" width="350" height="200">
                         <p>Web Site para divulgar uma empresa de cursos sobre tecnologia.</p>
-                    </article>
+                    </a>
                 </div>
             </div>
         </section>
