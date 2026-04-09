@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "TechEduca",
+        "imagem": "../img/tech.png",
+        "descricao": "Web Site para divulgar uma empresa vendendo cursos de tecnologia."
+    },
+    {
+        "id": 2,
+        "titulo": "Café Central",
+        "imagem": "../img/cafe.png",
+        "descricao": "Web Site para divulgar uma cafeteria local em busca de ascensão."
+    },
+    {
+        "id": 3,
+        "titulo": "Aldeia Automatizada",
+        "imagem": "../img/aldeia.png",
+        "descricao": "Comandos para automatizar uma vila no Minecraft."
+    }
+]

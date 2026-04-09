@@ -1,0 +1,12 @@
+/* 
+---------------- SOBRE MIM ----------------
+*/
+
+.sobre h3 {
+    text-align: left;
+}
+
+.sobre p {
+    text-align: right;
+    background-color: #409f94;
+}
